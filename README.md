@@ -1,9 +1,3 @@
-**Theek hai, ab bilkul clear.**
-
-Neeche **ek hi box** mein **poora complete README** hai.  
-Bas isko copy karke GitHub pe `README.md` mein paste kar do.
-
-```markdown
 # Tabular RL Toolkit
 
 A from-scratch educational toolkit for understanding core Reinforcement Learning concepts using only NumPy.  
