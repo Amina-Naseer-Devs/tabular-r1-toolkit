@@ -84,19 +84,18 @@ The belief code is completely generic. The Tiger problem is just data.
 ## Project Structure
 
 ```
-tabular-rl/
+tabular-rl-toolkit/
 ├── mdp.py
 ├── planning.py
 ├── qlearning.py
 ├── bayes.py
 ├── pomdp.py
-├── notebooks/
-│   ├── 01_mdp_and_value_iteration.ipynb
-│   ├── 02_qlearning.ipynb
-│   ├── 03_bayes_thompson.ipynb
-│   └── 04_pomdp_belief.ipynb
-├── tests/
-│   └── test_basic.py
+├── 01_mdp_and_value_iteration.ipynb
+├── 02_qlearning.ipynb
+├── 03_bayes_thompson.ipynb
+├── 04_pomdp_belief.ipynb
+├── test_basic.py
+├── pytest.ini
 ├── requirements.txt
 └── README.md
 ```
