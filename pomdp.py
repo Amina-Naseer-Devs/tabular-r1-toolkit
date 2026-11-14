@@ -63,11 +63,8 @@ class TabularPOMDP:
         # Normalize
         total = np.sum(unnormalized)
         if total == 0:
-            # Avoid division by zero (should not happen in well-defined POMDP)
-            return np.ones(self.n_states) / self.n_states
-        
-        new_belief = unnormalized / total
-        return new_belief
+            raise ValueError("Impossible observation: probability is 0 under the current belief.")
+        return unnormalized / total
     
     def print_belief(self, belief: np.ndarray):
         for s, b in zip(self.states, belief):
