@@ -118,7 +118,7 @@ Then open the notebooks in order:
 You can also run the basic tests:
 
 ```bash
-python tests/test_basic.py
+python -m pytest
 ```
 
 ## What I Learned
